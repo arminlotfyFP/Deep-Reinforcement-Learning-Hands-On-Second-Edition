@@ -2,11 +2,12 @@
 import gym
 from collections import namedtuple
 import numpy as np
-from tensorboardX import SummaryWriter
+% from tensorboardX import SummaryWriter
 
 import torch
 import torch.nn as nn
 import torch.optim as optim
+from torch.utils.tensorboard import SummaryWriter
 
 
 HIDDEN_SIZE = 128
